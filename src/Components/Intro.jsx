@@ -10,7 +10,7 @@ const Intro = () => {
 
   // Return the JSX code for the intro section
   return (
-    <section id="intro" className="h-screen md:h-[25rem]">
+    <section id="intro" className="h-[30rem] md:h-[25rem]">
       {/* Use the background image as the style of the section */}
       <div
         className="h-full w-full bg-cover bg-center"

@@ -38,19 +38,15 @@ const Navbar = () => {
     }, []);
     return (
         <div className="flex md:bg-gray-100 justify-between items-center border-b-2 border-green-400 p-4 text-white mx-2 rounded-md">
-            <Link to="/" className="flex items-center p-[-1rem]">
-                <img src={Logo} className="text-4xl text-green-400 h-[4rem] w-[4rem]" />
+           <div className='flex items-center space-x-3'>
+           <Link to="/" className="flex items-center p-[-1rem]">
+                <img src={Logo} className="text-4xl text-green-400 scale-125 h-[4rem] w-[4rem]" />
             </Link>
+            <p className="font-bold text-[1.5rem]   text-amber-800">Kpm seeds</p>
+           </div>
+            
             <div className="flex  justify-between items-center space-x-5 md:hidden">
-                <a
-                    href="/#contact"
-                    className="h-[1.8rem] w-[5.6rem] border-2 border-green-300 rounded-full p-1 flex items-center justify-center"
-                    activeStyle={{ backgroundColor: "green" }}
-                >
-                    <p style={{ fontFamily: "sans" }} className="text-black text-lg">
-                        Contact
-                    </p>
-                </a>
+              
                 <MdMenu
                     className="text-green-300 text-3xl"
                     onClick={toggleMenu}
