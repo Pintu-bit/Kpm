@@ -40,7 +40,7 @@ function App() {
                     transitionTime={200}
                     className='rounded-md'
                 >
-                    <div className='relative flex justify-center bg-gray-100'>
+                    <div className='relative flex justify-center bg-green-100'>
                         <div className='h-[25rem] md:h-[35rem] md:w-[40%] '>
                             <img className='h-[25rem] md:h-[35rem] w-[10%]' src={seed1} alt="Legend 1" />
                             {/* <div className='absolute inset-0 bg-black opacity-40'></div> */}
@@ -55,7 +55,7 @@ function App() {
 
                     </div>
 
-                    <div className='relative flex justify-center bg-gray-100'>
+                    <div className='relative flex justify-center bg-green-100'>
                         <div className='h-[25rem] md:h-[35rem] md:w-[40%]'>
                             <img className='h-[25rem] md:h-[35rem] w-[10%]' src={seed2} alt="Legend 2" />
                             {/* <div className='absolute inset-0 bg-black opacity-20'></div> */}
@@ -69,7 +69,7 @@ function App() {
                         </div>
                     </div>
 
-                    <div className='relative flex justify-center bg-gray-100'>
+                    <div className='relative flex justify-center bg-green-100'>
                         <div className='h-[25rem] md:h-[35rem] md:w-[40%]'>
                             <img className='h-[25rem] md:h-[35rem] w-[10%]' src={seed3} alt="Legend 3" />
                             {/* <div className='absolute inset-0 bg-black opacity-40'></div> */}
