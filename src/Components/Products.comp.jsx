@@ -66,9 +66,9 @@ const Products = () => {
                             />
                         </div>
                           
-                            <div className="p-2 md:w-[60%]">
+                            <div className=" md:w-[60%]">
                                 <h2 className="text-2xl mb-2 ml-2  font-bold text-green-700">{product.name}</h2>
-                                <ul className="text-lg text-gray-600 list-disc list-inside">
+                                <ul className=" text-gray-600 list-disc list-inside">
                                     {product.description.map((item) => (
                                         <li style={{fontFamily:'sans-serif'}} className="font-bold" key={item}>{item}</li>
                                     ))}

@@ -36,7 +36,7 @@ const About = () => {
 
   // Return the JSX code for the about section
   return (
-    <div className="bg-green-100 p-4">
+    <div className="bg-green-100 p-4 border-t-2 border-black">
       <Row gutter={[16, 16]}>
         <Col xs={24} md={7} className="text-center">
         <div className="flex items-center gap-4 justify-center md:mt-[40%]">
