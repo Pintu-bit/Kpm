@@ -13,6 +13,8 @@ import Intro from '../Components/Intro.jsx';
 import seed1 from '../assets/seed1.png'
 import seed2 from '../assets/seed2.png'
 import seed3 from '../assets/seed3.png'
+import seed4 from '../assets/seed4.png'
+
 
 function App() {
     const images = [
@@ -42,7 +44,7 @@ function App() {
                 >
                     <div className='relative flex justify-center bg-green-100'>
                         <div className='h-[25rem] md:h-[35rem] md:w-[40%] '>
-                            <img className='h-[25rem] md:h-[35rem] w-[10%]' src={seed1} alt="Legend 1" />
+                            <img className='h-[20rem] md:h-[35rem] w-[10%]' src={seed1} alt="Legend 1" />
                             {/* <div className='absolute inset-0 bg-black opacity-40'></div> */}
                             <div className='absolute inset-0 flex items-center justify-center text-white'>
                             <a href="#gangaprasad">
@@ -57,7 +59,7 @@ function App() {
 
                     <div className='relative flex justify-center bg-green-100'>
                         <div className='h-[25rem] md:h-[35rem] md:w-[40%]'>
-                            <img className='h-[25rem] md:h-[35rem] w-[10%]' src={seed2} alt="Legend 2" />
+                            <img className='h-[20rem] md:h-[35rem] w-[10%]' src={seed2} alt="Legend 2" />
                             {/* <div className='absolute inset-0 bg-black opacity-20'></div> */}
                             <div className='absolute inset-0 flex items-center justify-center text-white'>
                             <a href="#subhajit">
@@ -71,13 +73,28 @@ function App() {
 
                     <div className='relative flex justify-center bg-green-100'>
                         <div className='h-[25rem] md:h-[35rem] md:w-[40%]'>
-                            <img className='h-[25rem] md:h-[35rem] w-[10%]' src={seed3} alt="Legend 3" />
+                            <img className='h-[20rem] md:h-[35rem] w-[10%]' src={seed3} alt="Legend 3" />
                             {/* <div className='absolute inset-0 bg-black opacity-40'></div> */}
                             <div className='absolute inset-0 flex items-center justify-center text-white'>
                             <a href="#villain">
                                 <button className="bg-white mt-[7rem] font-bold border border-green-500 text-black py-2 px-4 rounded-full hover:bg-black hover:text-white transition duration-300">
                                     Know More
-                                </button>
+                                 </button>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='relative flex justify-center bg-green-100'>
+                        <div className='h-[25rem] md:h-[35rem] md:w-[40%]'>
+                            <img className='h-[20rem] md:h-[35rem] w-[10%]' src={seed4} alt="Legend 3" />
+                            {/* <div className='absolute inset-0 bg-black opacity-40'></div> */}
+                            <div className='absolute inset-0 flex items-center justify-center text-white'>
+                            <a href="#villain">
+                                <button className="bg-white mt-[7rem] font-bold border border-green-500 text-black py-2 px-4 rounded-full hover:bg-black hover:text-white transition duration-300">
+                                    Know More
+                                 </button>
                                 </a>
 
                             </div>

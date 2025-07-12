@@ -3,6 +3,7 @@ import "tailwindcss/tailwind.css";
 import seed1 from '../assets/seed1.png'
 import seed2 from '../assets/seed2.png'
 import seed3 from '../assets/seed3.png'
+import seed4 from '../assets/seed4.png'
 
 const Products = () => {
     // Define the seed products and their descriptions
@@ -43,6 +44,18 @@ const Products = () => {
                 "High tolerance to disease.",
             ],
         },
+                {
+            id: "kp_bold",
+            name:"KP BOLD",
+            image: seed4,
+            description: [
+                " Duration 145 - 150 days.",
+                " Coarse and long weighty grains.",
+                "The height of the tree is about 70cm.",
+                "High tolerance to disease.",
+                
+            ],
+        },
     ];
 
     // Return the JSX code for the products section
@@ -62,7 +75,7 @@ const Products = () => {
                         <img
                                 src={product.image}
                                 alt={`Seed ${index + 1}`}
-                                className="md:w-[12rem] h-[16rem] sm:w-1/2 md:h-[18rem]  rounded-t-lg sm:rounded-l-lg sm:rounded-r-none"
+                                className="md:w-[18rem] h-[16rem] sm:w-1/2 md:h-[18rem]  rounded-t-lg sm:rounded-l-lg sm:rounded-r-none"
                             />
                         </div>
                           
