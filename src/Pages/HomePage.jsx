@@ -91,7 +91,7 @@ function App() {
                             <img className='h-[20rem] md:h-[35rem] w-[10%]' src={seed4} alt="Legend 3" />
                             {/* <div className='absolute inset-0 bg-black opacity-40'></div> */}
                             <div className='absolute inset-0 flex items-center justify-center text-white'>
-                            <a href="#villain">
+                            <a href="#kpbold">
                                 <button className="bg-white mt-[7rem] font-bold border border-green-500 text-black py-2 px-4 rounded-full hover:bg-black hover:text-white transition duration-300">
                                     Know More
                                  </button>

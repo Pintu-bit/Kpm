@@ -45,8 +45,8 @@ const Products = () => {
             ],
         },
                 {
-            id: "kp_bold",
-            name:"KP BOLD",
+            id: "kpbold",
+            name:"KPBOLD",
             image: seed4,
             description: [
                 " Duration 145 - 150 days.",
